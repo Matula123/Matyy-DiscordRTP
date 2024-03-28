@@ -17,9 +17,9 @@ Citizen.CreateThread(function()
             0 : The button will be visible
             1 : The button will not be visible
         ]]--
-        SetDiscordRichPresenceAction(0, "Connect", "fivem://connect/") 
+        SetDiscordRichPresenceAction(0, "✅ Connect", "fivem://connect/") 
         -- Here you give the link to your connect.
-        SetDiscordRichPresenceAction(1, "Discord", "https://discord.gg/tEpzDFwYZy") 
+        SetDiscordRichPresenceAction(1, "🌐 Discord", "https://discord.gg/tEpzDFwYZy") 
         -- This is where you put the link to your discord server.
         -- Updates every 1 minute
         Citizen.Wait(60000)
