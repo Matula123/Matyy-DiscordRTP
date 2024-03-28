@@ -1,4 +1,10 @@
 fx_version 'cerulean'
-games { 'gta5' }
+game "gta5"
 
-client_script 'client.lua'
+author 'Matula123'
+description 'Rocket DiscordRP'
+version '1.1.0'
+
+server_scripts {
+    'client.lua',
+}
