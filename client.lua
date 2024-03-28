@@ -14,8 +14,8 @@ Citizen.CreateThread(function()
             Here you can add buttons that will display in your Discord Status,
             First paramater is the button index (0 or 1), second is the title and 
             last is the url (this has to start with "fivem://connect/" or "https://") 
-            0 : The button will be visible.
-            1 : The button will not be visible.
+            0 : The button will be visible
+            1 : The button will not be visible
         ]]--
         SetDiscordRichPresenceAction(0, "✅ Connect", "fivem://connect/") 
         -- Here you give the link to your connect.
